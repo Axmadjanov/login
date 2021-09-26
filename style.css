@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+.main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 100vh;
+}
+.first {
+  height: 100vh;
+  background-color: rgb(54, 54, 167);
+  color: #fff;
+  padding: 10px 30px;
+}
+.first i {
+  transform: rotate(180deg);
+  font-size: 35px;
+  position: relative;
+  top: 32px;
+  right: 10px;
+}
+.div {
+  position: absolute;
+  left: 900px;
+  top: 0;
+}
+.it {
+  position: absolute;
+  bottom: 300px;
+  left: 340px;
+}
+.it h3 {
+  text-align: center;
+}
+.it John {
+  position: absolute;
+  left: 10px;
+}
+
+.it i {
+  font-size: 100px;
+  padding: 0 30px;
+}
+.it img {
+  width: 47%;
+  height: 9.5vh;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+.p {
+  position: absolute;
+  bottom: 10px;
+}
+.first select {
+  background-color: rgb(54, 54, 167);
+  border: none;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 450px;
+}
+
+.second {
+  background-color: #fff;
+  color: rgb(54, 54, 167);
+}
+.back {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 60vh 20vh 20vh;
+}
+.second h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 30px;
+}
+.email th {
+  color: rgb(54, 54, 167);
+}
+.email input {
+  width: 100%;
+  padding: 5px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.email p {
+  color: #555;
+  position: absolute;
+  right: 60px;
+  cursor: pointer;
+}
+.email button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(54, 54, 167);
+}
+.email button a {
+  color: #fff;
+  text-decoration: none;
+}
+.create button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+}
+.create button a {
+  color: #fff;
+  text-decoration: none;
+}
+.create p {
+  color: #555;
+  text-align: center;
+}
+.page {
+  text-align: center;
+  padding-top: 40px;
+}
+.page a {
+  color: green;
+}
